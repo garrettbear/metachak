@@ -33,11 +33,19 @@ const RAW_RUNTIME_STATE =
           ["@emotion/react", "virtual:a772a5e71dbaa68da4ba8f60841cbfc6a456f64ce9b9d010ad75b3b7094d2081a66ec3c6d1f0603863fc6f0e5c6876dcda6754adfea627eeb7791c7df4781917#npm:11.11.4"],\
           ["@emotion/styled", "virtual:a772a5e71dbaa68da4ba8f60841cbfc6a456f64ce9b9d010ad75b3b7094d2081a66ec3c6d1f0603863fc6f0e5c6876dcda6754adfea627eeb7791c7df4781917#npm:11.11.5"],\
           ["@metamask/design-tokens", "npm:4.0.0"],\
+          ["@storybook/addon-actions", "npm:8.1.11"],\
+          ["@storybook/addon-backgrounds", "npm:8.1.11"],\
+          ["@storybook/addon-controls", "npm:8.1.11"],\
           ["@storybook/addon-essentials", "npm:8.1.11"],\
           ["@storybook/addon-interactions", "npm:8.1.11"],\
           ["@storybook/addon-links", "virtual:a772a5e71dbaa68da4ba8f60841cbfc6a456f64ce9b9d010ad75b3b7094d2081a66ec3c6d1f0603863fc6f0e5c6876dcda6754adfea627eeb7791c7df4781917#npm:8.1.11"],\
+          ["@storybook/addon-measure", "npm:8.1.11"],\
           ["@storybook/addon-onboarding", "npm:8.1.11"],\
+          ["@storybook/addon-outline", "npm:8.1.11"],\
+          ["@storybook/addon-toolbars", "npm:8.1.11"],\
+          ["@storybook/addon-viewport", "npm:8.1.11"],\
           ["@storybook/blocks", "virtual:a772a5e71dbaa68da4ba8f60841cbfc6a456f64ce9b9d010ad75b3b7094d2081a66ec3c6d1f0603863fc6f0e5c6876dcda6754adfea627eeb7791c7df4781917#npm:8.1.11"],\
+          ["@storybook/instrumenter", "npm:8.1.11"],\
           ["@storybook/react", "virtual:a772a5e71dbaa68da4ba8f60841cbfc6a456f64ce9b9d010ad75b3b7094d2081a66ec3c6d1f0603863fc6f0e5c6876dcda6754adfea627eeb7791c7df4781917#npm:8.1.11"],\
           ["@storybook/react-vite", "virtual:a772a5e71dbaa68da4ba8f60841cbfc6a456f64ce9b9d010ad75b3b7094d2081a66ec3c6d1f0603863fc6f0e5c6876dcda6754adfea627eeb7791c7df4781917#npm:8.1.11"],\
           ["@storybook/test", "npm:8.1.11"],\
@@ -50,10 +58,13 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react-hooks", "virtual:a772a5e71dbaa68da4ba8f60841cbfc6a456f64ce9b9d010ad75b3b7094d2081a66ec3c6d1f0603863fc6f0e5c6876dcda6754adfea627eeb7791c7df4781917#npm:4.6.2"],\
           ["eslint-plugin-react-refresh", "virtual:a772a5e71dbaa68da4ba8f60841cbfc6a456f64ce9b9d010ad75b3b7094d2081a66ec3c6d1f0603863fc6f0e5c6876dcda6754adfea627eeb7791c7df4781917#npm:0.4.8"],\
           ["eslint-plugin-storybook", "virtual:a772a5e71dbaa68da4ba8f60841cbfc6a456f64ce9b9d010ad75b3b7094d2081a66ec3c6d1f0603863fc6f0e5c6876dcda6754adfea627eeb7791c7df4781917#npm:0.8.0"],\
+          ["filesize", "npm:10.1.4"],\
           ["framer-motion", "virtual:a772a5e71dbaa68da4ba8f60841cbfc6a456f64ce9b9d010ad75b3b7094d2081a66ec3c6d1f0603863fc6f0e5c6876dcda6754adfea627eeb7791c7df4781917#npm:11.2.14"],\
           ["react", "npm:18.3.1"],\
+          ["react-confetti", "virtual:a772a5e71dbaa68da4ba8f60841cbfc6a456f64ce9b9d010ad75b3b7094d2081a66ec3c6d1f0603863fc6f0e5c6876dcda6754adfea627eeb7791c7df4781917#npm:6.1.0"],\
           ["react-dom", "virtual:f1b8669b78bbd9ad1b1a5718d2c1b8c17a96801f6c7f09f92a5f6a722c2b98a8a3a35f54439df570df3b9786d4a7c4656664c15be781a52c51b8418027c09dd8#npm:18.3.1"],\
           ["storybook", "npm:8.1.11"],\
+          ["strip-ansi", "npm:7.1.0"],\
           ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"],\
           ["vite", "virtual:a772a5e71dbaa68da4ba8f60841cbfc6a456f64ce9b9d010ad75b3b7094d2081a66ec3c6d1f0603863fc6f0e5c6876dcda6754adfea627eeb7791c7df4781917#npm:5.3.3"]\
         ],\
@@ -12851,11 +12862,19 @@ const RAW_RUNTIME_STATE =
           ["@emotion/react", "virtual:a772a5e71dbaa68da4ba8f60841cbfc6a456f64ce9b9d010ad75b3b7094d2081a66ec3c6d1f0603863fc6f0e5c6876dcda6754adfea627eeb7791c7df4781917#npm:11.11.4"],\
           ["@emotion/styled", "virtual:a772a5e71dbaa68da4ba8f60841cbfc6a456f64ce9b9d010ad75b3b7094d2081a66ec3c6d1f0603863fc6f0e5c6876dcda6754adfea627eeb7791c7df4781917#npm:11.11.5"],\
           ["@metamask/design-tokens", "npm:4.0.0"],\
+          ["@storybook/addon-actions", "npm:8.1.11"],\
+          ["@storybook/addon-backgrounds", "npm:8.1.11"],\
+          ["@storybook/addon-controls", "npm:8.1.11"],\
           ["@storybook/addon-essentials", "npm:8.1.11"],\
           ["@storybook/addon-interactions", "npm:8.1.11"],\
           ["@storybook/addon-links", "virtual:a772a5e71dbaa68da4ba8f60841cbfc6a456f64ce9b9d010ad75b3b7094d2081a66ec3c6d1f0603863fc6f0e5c6876dcda6754adfea627eeb7791c7df4781917#npm:8.1.11"],\
+          ["@storybook/addon-measure", "npm:8.1.11"],\
           ["@storybook/addon-onboarding", "npm:8.1.11"],\
+          ["@storybook/addon-outline", "npm:8.1.11"],\
+          ["@storybook/addon-toolbars", "npm:8.1.11"],\
+          ["@storybook/addon-viewport", "npm:8.1.11"],\
           ["@storybook/blocks", "virtual:a772a5e71dbaa68da4ba8f60841cbfc6a456f64ce9b9d010ad75b3b7094d2081a66ec3c6d1f0603863fc6f0e5c6876dcda6754adfea627eeb7791c7df4781917#npm:8.1.11"],\
+          ["@storybook/instrumenter", "npm:8.1.11"],\
           ["@storybook/react", "virtual:a772a5e71dbaa68da4ba8f60841cbfc6a456f64ce9b9d010ad75b3b7094d2081a66ec3c6d1f0603863fc6f0e5c6876dcda6754adfea627eeb7791c7df4781917#npm:8.1.11"],\
           ["@storybook/react-vite", "virtual:a772a5e71dbaa68da4ba8f60841cbfc6a456f64ce9b9d010ad75b3b7094d2081a66ec3c6d1f0603863fc6f0e5c6876dcda6754adfea627eeb7791c7df4781917#npm:8.1.11"],\
           ["@storybook/test", "npm:8.1.11"],\
@@ -12868,10 +12887,13 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react-hooks", "virtual:a772a5e71dbaa68da4ba8f60841cbfc6a456f64ce9b9d010ad75b3b7094d2081a66ec3c6d1f0603863fc6f0e5c6876dcda6754adfea627eeb7791c7df4781917#npm:4.6.2"],\
           ["eslint-plugin-react-refresh", "virtual:a772a5e71dbaa68da4ba8f60841cbfc6a456f64ce9b9d010ad75b3b7094d2081a66ec3c6d1f0603863fc6f0e5c6876dcda6754adfea627eeb7791c7df4781917#npm:0.4.8"],\
           ["eslint-plugin-storybook", "virtual:a772a5e71dbaa68da4ba8f60841cbfc6a456f64ce9b9d010ad75b3b7094d2081a66ec3c6d1f0603863fc6f0e5c6876dcda6754adfea627eeb7791c7df4781917#npm:0.8.0"],\
+          ["filesize", "npm:10.1.4"],\
           ["framer-motion", "virtual:a772a5e71dbaa68da4ba8f60841cbfc6a456f64ce9b9d010ad75b3b7094d2081a66ec3c6d1f0603863fc6f0e5c6876dcda6754adfea627eeb7791c7df4781917#npm:11.2.14"],\
           ["react", "npm:18.3.1"],\
+          ["react-confetti", "virtual:a772a5e71dbaa68da4ba8f60841cbfc6a456f64ce9b9d010ad75b3b7094d2081a66ec3c6d1f0603863fc6f0e5c6876dcda6754adfea627eeb7791c7df4781917#npm:6.1.0"],\
           ["react-dom", "virtual:f1b8669b78bbd9ad1b1a5718d2c1b8c17a96801f6c7f09f92a5f6a722c2b98a8a3a35f54439df570df3b9786d4a7c4656664c15be781a52c51b8418027c09dd8#npm:18.3.1"],\
           ["storybook", "npm:8.1.11"],\
+          ["strip-ansi", "npm:7.1.0"],\
           ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"],\
           ["vite", "virtual:a772a5e71dbaa68da4ba8f60841cbfc6a456f64ce9b9d010ad75b3b7094d2081a66ec3c6d1f0603863fc6f0e5c6876dcda6754adfea627eeb7791c7df4781917#npm:5.3.3"]\
         ],\
@@ -14119,6 +14141,20 @@ const RAW_RUNTIME_STATE =
           ["react-confetti", "virtual:5d465395bb03a03c7d96f250a093d8f2b099df57e070be0305879a487f5de630b55d47d8bbc6b98f328c23aabfbe10a520ed00dc95b67d32f3d8977214ff7b08#npm:6.1.0"],\
           ["@types/react", null],\
           ["react", null],\
+          ["tween-functions", "npm:1.2.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["virtual:a772a5e71dbaa68da4ba8f60841cbfc6a456f64ce9b9d010ad75b3b7094d2081a66ec3c6d1f0603863fc6f0e5c6876dcda6754adfea627eeb7791c7df4781917#npm:6.1.0", {\
+        "packageLocation": "./.yarn/__virtual__/react-confetti-virtual-76308d0d3f/4/.yarn/berry/cache/react-confetti-npm-6.1.0-9b9e19a3c8-10c0.zip/node_modules/react-confetti/",\
+        "packageDependencies": [\
+          ["react-confetti", "virtual:a772a5e71dbaa68da4ba8f60841cbfc6a456f64ce9b9d010ad75b3b7094d2081a66ec3c6d1f0603863fc6f0e5c6876dcda6754adfea627eeb7791c7df4781917#npm:6.1.0"],\
+          ["@types/react", "npm:18.3.3"],\
+          ["react", "npm:18.3.1"],\
           ["tween-functions", "npm:1.2.0"]\
         ],\
         "packagePeers": [\

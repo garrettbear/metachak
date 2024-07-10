@@ -3834,7 +3834,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-actions@npm:8.1.11":
+"@storybook/addon-actions@npm:8.1.11, @storybook/addon-actions@npm:^8.1.11":
   version: 8.1.11
   resolution: "@storybook/addon-actions@npm:8.1.11"
   dependencies:
@@ -3848,7 +3848,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-backgrounds@npm:8.1.11":
+"@storybook/addon-backgrounds@npm:8.1.11, @storybook/addon-backgrounds@npm:^8.1.11":
   version: 8.1.11
   resolution: "@storybook/addon-backgrounds@npm:8.1.11"
   dependencies:
@@ -3859,7 +3859,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-controls@npm:8.1.11":
+"@storybook/addon-controls@npm:8.1.11, @storybook/addon-controls@npm:^8.1.11":
   version: 8.1.11
   resolution: "@storybook/addon-controls@npm:8.1.11"
   dependencies:
@@ -3960,7 +3960,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-measure@npm:8.1.11":
+"@storybook/addon-measure@npm:8.1.11, @storybook/addon-measure@npm:^8.1.11":
   version: 8.1.11
   resolution: "@storybook/addon-measure@npm:8.1.11"
   dependencies:
@@ -3979,7 +3979,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-outline@npm:8.1.11":
+"@storybook/addon-outline@npm:8.1.11, @storybook/addon-outline@npm:^8.1.11":
   version: 8.1.11
   resolution: "@storybook/addon-outline@npm:8.1.11"
   dependencies:
@@ -3989,14 +3989,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-toolbars@npm:8.1.11":
+"@storybook/addon-toolbars@npm:8.1.11, @storybook/addon-toolbars@npm:^8.1.11":
   version: 8.1.11
   resolution: "@storybook/addon-toolbars@npm:8.1.11"
   checksum: 10c0/13096892f31596b266e3a24ee2b75bb308d34f669f34503d3b5086a189ca2a9ee1422d6700ef6dc854800b64dff8bc5654f30db90a92dfb5c71217c2860bdd33
   languageName: node
   linkType: hard
 
-"@storybook/addon-viewport@npm:8.1.11":
+"@storybook/addon-viewport@npm:8.1.11, @storybook/addon-viewport@npm:^8.1.11":
   version: 8.1.11
   resolution: "@storybook/addon-viewport@npm:8.1.11"
   dependencies:
@@ -4407,7 +4407,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/instrumenter@npm:8.1.11":
+"@storybook/instrumenter@npm:8.1.11, @storybook/instrumenter@npm:^8.1.11":
   version: 8.1.11
   resolution: "@storybook/instrumenter@npm:8.1.11"
   dependencies:
@@ -7172,7 +7172,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"filesize@npm:^10.0.12":
+"filesize@npm:^10.0.12, filesize@npm:^10.1.4":
   version: 10.1.4
   resolution: "filesize@npm:10.1.4"
   checksum: 10c0/b02a792da0da66fce5525566691369db6f0fadf5407b3626ca14821998dfaec65cf4a69fc3ca3ae999bf963e4afa19a8a787996f935c508506cccff3cc075faf
@@ -8611,11 +8611,19 @@ __metadata:
     "@emotion/react": "npm:^11.11.4"
     "@emotion/styled": "npm:^11.11.5"
     "@metamask/design-tokens": "npm:^4.0.0"
+    "@storybook/addon-actions": "npm:^8.1.11"
+    "@storybook/addon-backgrounds": "npm:^8.1.11"
+    "@storybook/addon-controls": "npm:^8.1.11"
     "@storybook/addon-essentials": "npm:^8.1.11"
     "@storybook/addon-interactions": "npm:^8.1.11"
     "@storybook/addon-links": "npm:^8.1.11"
+    "@storybook/addon-measure": "npm:^8.1.11"
     "@storybook/addon-onboarding": "npm:^8.1.11"
+    "@storybook/addon-outline": "npm:^8.1.11"
+    "@storybook/addon-toolbars": "npm:^8.1.11"
+    "@storybook/addon-viewport": "npm:^8.1.11"
     "@storybook/blocks": "npm:^8.1.11"
+    "@storybook/instrumenter": "npm:^8.1.11"
     "@storybook/react": "npm:^8.1.11"
     "@storybook/react-vite": "npm:^8.1.11"
     "@storybook/test": "npm:^8.1.11"
@@ -8628,10 +8636,13 @@ __metadata:
     eslint-plugin-react-hooks: "npm:^4.6.2"
     eslint-plugin-react-refresh: "npm:^0.4.7"
     eslint-plugin-storybook: "npm:^0.8.0"
+    filesize: "npm:^10.1.4"
     framer-motion: "npm:^11.2.14"
     react: "npm:^18.3.1"
+    react-confetti: "npm:^6.1.0"
     react-dom: "npm:^18.3.1"
     storybook: "npm:^8.1.11"
+    strip-ansi: "npm:^7.1.0"
     typescript: "npm:^5.5.3"
     vite: "npm:^5.3.1"
   languageName: unknown
