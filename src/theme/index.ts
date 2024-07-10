@@ -1,5 +1,6 @@
 // src/theme/index.ts
 import { extendTheme, ThemeConfig } from "@chakra-ui/react";
+import { lightTheme } from '@metamask/design-tokens';
 
 const config: ThemeConfig = {
   initialColorMode: "light",
@@ -14,8 +15,8 @@ const customTheme = extendTheme({
       200: "#C5E4F3",
       300: "#A2D4EC",
       400: "#7AC1E4",
-      500: "#47A9DA",
-      600: "#0088CC",
+      500: lightTheme.colors.primary.default,
+      600: lightTheme.colors.primary.defaultHover,
       700: "#007AB8",
       800: "#006BA1",
       900: "#005885",
