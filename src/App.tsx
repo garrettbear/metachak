@@ -18,7 +18,10 @@ function App() {
         </a>
       </div>
       <h1>
-        Vite + React <CustomButton className="underline">Click Me</CustomButton>
+        Vite + React{" "}
+        <CustomButton colorScheme="primary" className="underline">
+          Click Me
+        </CustomButton>
       </h1>
       <h1 className="text-3xl font-bold underline">Hello world!</h1>
       <div className="card">
